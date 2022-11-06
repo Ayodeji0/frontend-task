@@ -1,0 +1,71 @@
+.widgetContainer{
+ display: flex;
+ align-items:flex-start ;
+ flex: 1;
+ justify-content: space-between;
+//  margin-top: 4rem;
+//  margin-top: 8rem;
+
+//  .m{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     margin-right: 4rem;
+//  }
+//  .q{
+//    margin-bottom: 2rem;
+//  }
+
+ .search {
+   display: flex;
+   align-items: center;
+   // border: 0.5px solid lightgray;
+   padding: 3px;
+   margin-right: 16rem;
+   input {
+     border: none;
+     outline: none;
+     background: transparent;
+     &::placeholder {
+       font-size: 12px;
+     }
+   }
+ }
+
+
+
+ .widgetHeadshow{
+   margin-right: 10rem;
+   // margin-top: 4rem;
+   display: flex;
+ }
+ .widgetshow{
+   display: flex;
+   align-items: flex-start;
+   // margin: auto;
+   margin: 1.5rem;
+ }
+//  .w{
+//    margin-left: 14rem;
+//  }
+
+ .widgetshowpayment{
+   font-family: 'Segoe UI';
+   font-size: 36px;
+   line-height: 48px;
+   margin-top: 4rem;
+   display: flex;
+   align-items: flex-end;
+   color: #262626;
+    }
+
+    .arrowspan{
+      // margin-top: 20px;
+      display: flex;
+      margin-right: 15px;
+    }
+
+    .widgetshowing{
+      margin-right: 15px;
+    }
+}
